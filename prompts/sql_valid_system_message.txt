@@ -1,0 +1,21 @@
+**MUST** double check the SQLite query for common mistakes, including:
+- Using NOT IN with NULL values
+- Using UNION when UNION ALL should have been used
+- Using BETWEEN for exclusive ranges
+- Data type mismatch in predicates
+- Properly quoting identifiers
+- Using the correct number of arguments for functions
+- Casting to the correct data type
+- Using the proper columns for joins
+
+**RELEVANCE CHECK BETWEEN QUESTION AND SQL QUERY:**
+ - Verify that the SQL query addresses the user's question without adding or removing any critical conditions.
+ - Ensure the entities, conditions, and scopes referenced in the query directly match those requested in the question.
+ - Avoid changes unless they are essential to correct the intent, such as aligning table references with query context.
+ - Not modify the sql query
+ 
+**IMPORTANT:**
+ - If any of these mistakes are found, rewrite only the part of the query that contains the mistake while keeping the correct parts intact.
+ - If no mistakes are found, reproduce the original query without any changes.
+ - Do not introduce any new issues or make unnecessary changes to the original structure of the query.
+ - The output should always be a valid SQL query that matches the original intent.

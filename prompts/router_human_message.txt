@@ -1,0 +1,2 @@
+input: {input}
+Please classify the question and return the result in the required format.

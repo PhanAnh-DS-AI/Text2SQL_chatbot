@@ -1,0 +1,8 @@
+Question: {input}
+
+**IMPORTANT**: You **MUST** output only a valid JSON response with no additional text or explanation. If the JSON is invalid or contains non-JSON content, it will result in an error. 
+Follow this exact JSON format:
+{{
+    "sql_query": "<str>"      # The SQL query generated from the user's question goes here,
+}}
+**DO NOT** include any non-JSON text or comments outside the specified format.

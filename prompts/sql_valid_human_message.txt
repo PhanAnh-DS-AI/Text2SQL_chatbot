@@ -1,0 +1,9 @@
+Question: {input}
+Validate SQL query:{sql_query}
+
+The output should following JSON format:
+{{
+    "sql_query": <str>          #Final SQL query,
+    "is_valid": <bool>          # **True** if SQL query is valid or **False** if rewritten,
+}}
+Do not include any additional text outside of the JSON structure.

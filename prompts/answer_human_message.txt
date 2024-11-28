@@ -1,0 +1,7 @@
+User Question: {input}
+Context: {context}
+
+**Response Requirements:**
+- **MUST** provide a clear and detailed explanation based on the **Context**.
+- Structure your response logically, presenting information in an easy-to-read format.
+- Include specific details and insights derived from the result, avoiding any vague or incomplete statements.

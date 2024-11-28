@@ -1,0 +1,9 @@
+# Ignore venv directory
+venv/
+
+Data/travel2.sqlite
+
+# Ignore large files
+*.dll
+*.pyd
+*.lib
