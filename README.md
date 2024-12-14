@@ -8,7 +8,10 @@ This project aims to build a robust pipeline for a **Text2SQL chatbot** that emp
 - **User-Friendly**: No SQL knowledge required to interact with the system.
 
 ---
+# Project Pipeline
+![Mô tả hình ảnh](SQL_pipeline.png)
 
+---
 ## Dataset
 
 The project uses the **Travel2 dataset** for querying:
